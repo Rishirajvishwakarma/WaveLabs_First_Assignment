@@ -1,1 +1,32 @@
+Here are additional inputs and outputs for the code:
+
+1. Input:
+   int n = 4;
+   std::vector<std::vector<int>> connections{{0, 1}, {0, 2}, {1, 2}};
+  
+
+   Output:
+   Minimum number of connections needed: 0
+ 2. Input:
+    int n = 5;
+   std::vector<std::vector<int>> connections{{0, 1}, {0, 2}, {1, 2}, {3, 4}};
+ 
+   Output:
+   Minimum number of connections needed: 1
+
+3. Input:
+   int n = 3;
+   std::vector<std::vector<int>> connections{{0, 1}, {1, 2}};
+
+   Output:
+   Minimum number of connections needed: -1
+
+
+5. Input:
+   int n = 2;
+   std::vector<std::vector<int>> connections{{0, 1}};
+
+   Output:
+   Minimum number of connections needed: 0
+
 
